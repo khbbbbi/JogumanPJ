@@ -40,7 +40,7 @@ import login.Login;
 import db.DB;
 import main.MainFrame;
 import post.Posting;
-import profile.Interest;
+//import profile.Interest;
 import profile.Mypage;
 import profile.Review;
 
@@ -369,8 +369,8 @@ public class Interest extends JFrame implements ActionListener, MouseListener{
       
       DB.DBconnect(dbURL, dbID, dbPassword);
       
-      Interest it = new Interest(null, id);
-      System.out.println(id);
+//      Interest it = new Interest(null, id);
+//      System.out.println(id);
    }
    @Override
    public void actionPerformed(ActionEvent e) {
